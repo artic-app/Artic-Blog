@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "118047429919",
+    "firebase_url": "https://artic-blog-an001.firebaseio.com",
+    "project_id": "artic-blog-an001",
+    "storage_bucket": "artic-blog-an001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118047429919:android:17fd18517cb4fcff",
+        "android_client_info": {
+          "package_name": "anway.somani.artic_blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118047429919-0qgfa07qs94o04mm0vccg3b4bd21qgtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anway.somani.artic_blog",
+            "certificate_hash": "f446c2663c2162afcc0a99fb38cac2ca83576546"
+          }
+        },
+        {
+          "client_id": "118047429919-re62hludh9vb75ptl7askrgb2bo6v913.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdYBRQ61-Yxo0EL2hCNnQ-IinMeNf_IWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118047429919-re62hludh9vb75ptl7askrgb2bo6v913.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

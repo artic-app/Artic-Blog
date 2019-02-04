@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Artic-Blog</string>
+
+    <string name="sign_in">Sign-In</string>
+
+    <string name="login">Login</string>
+    <string name="eemail">Enter Email Address...</string>
+    <string name="epassword">Enter Password...</string>
+
+    <string name="signin">Sign In</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="register">Register here...</string>
+</resources>
