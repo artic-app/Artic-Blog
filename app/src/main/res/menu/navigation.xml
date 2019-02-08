@@ -10,5 +10,9 @@
         android:id="@+id/navigation_myblogs"
         android:icon="@drawable/ic_myblogs"
         android:title="@string/my_blogs" />
+    <item
+        android:title="Profile"
+        android:id="@+id/prof_nav"
+        android:icon="@mipmap/ic_profile"/>
 
 </menu>
