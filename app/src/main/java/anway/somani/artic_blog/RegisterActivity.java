@@ -82,7 +82,7 @@ public class RegisterActivity extends AppCompatActivity {
         signup_cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                
             }
         });
     }

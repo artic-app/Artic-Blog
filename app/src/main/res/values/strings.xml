@@ -12,10 +12,14 @@
     <string name="register">Register here&#8230;</string>
     <string name="title_activity_main">MainActivity</string>
 
-    <!-- Blog Configurations -->
+    <!-- Navigation Bar -->
     <string name="title_home">Home</string>
     <string name="my_blogs">My Blogs</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
