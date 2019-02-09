@@ -13,6 +13,7 @@
     <string name="title_activity_main">MainActivity</string>
 
     <!-- Navigation Bar -->
+    <string name="preference">Preference</string>
     <string name="title_home">Home</string>
     <string name="my_blogs">My Blogs</string>
     <string name="profile">Profile</string>

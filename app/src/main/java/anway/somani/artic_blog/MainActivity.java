@@ -1,6 +1,5 @@
 package anway.somani.artic_blog;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -26,6 +25,11 @@ public class MainActivity extends AppCompatActivity {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             switch (item.getItemId()) {
+                case R.id.navigation_preference:
+                    PreferenceFragment fragment_preference = new PreferenceFragment();
+                    fragmentTransaction.add(R.id.container, fragment_preference);
+                    fragmentTransaction.commit();
+                    return true;
                 case R.id.navigation_home:
                     HomeFragment fragment_home = new HomeFragment();
                     fragmentTransaction.add(R.id.container, fragment_home);

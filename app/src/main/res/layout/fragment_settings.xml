@@ -12,7 +12,6 @@
         android:text="@string/hello_blank_fragment"
         android:textColor="#fff"
         android:textSize="35sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp" />
+        android:layout_gravity="center" />
 
 </FrameLayout>

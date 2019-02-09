@@ -4,6 +4,10 @@
     tools:showIn="navigation_view" >
 
     <item
+        android:id="@+id/navigation_preference"
+        android:icon="@drawable/ic_preference"
+        android:title="@string/preference" />
+    <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home" />
