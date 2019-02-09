@@ -4,8 +4,8 @@
     <string name="sign_in">Sign-In</string>
 
     <string name="login">Login</string>
-    <string name="eemail">Enter Email Address...</string>
-    <string name="epassword">Enter Password...</string>
+    <string name="eemail">Enter Email Address</string>
+    <string name="epassword">Enter Password</string>
 
     <string name="signin">Sign In</string>
     <string name="forgot">Forgot password?</string>
@@ -19,7 +19,17 @@
     <string name="profile">Profile</string>
     <string name="settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!--  -->
+    <string name="new_blog">New Blog</string>
+
+    <!-- Blog Variables -->
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_content">Enter Content</string>
+    <string name="enter_author">Author Name</string>
+    <string name="enter_tag">Select Tag</string>
+    <string name="enter_datetime">Date &amp; Time</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 

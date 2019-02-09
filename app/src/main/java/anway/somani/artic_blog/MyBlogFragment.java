@@ -1,18 +1,26 @@
 package anway.somani.artic_blog;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import java.util.Objects;
+
 public class MyBlogFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    View view;
 
     private String mParam1;
     private String mParam2;
@@ -41,9 +49,21 @@ public class MyBlogFragment extends Fragment {
     }
 
     @Override
+    @Nullable
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_my_blog, container, false);
+
+        view = inflater.inflate(R.layout.fragment_my_blog, container, false);
+        FloatingActionButton fab = view.findViewById(R.id.create_new_blog);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), NewBlogActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        return view;
     }
 
     public void onButtonPressed(Uri uri) {
