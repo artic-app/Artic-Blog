@@ -7,14 +7,6 @@
     tools:context=".MyBlogFragment"
     android:background="#55f">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
-        android:textColor="#fff"
-        android:textSize="35sp"
-        android:layout_gravity="center" />
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/create_new_blog"
         android:layout_width="wrap_content"
