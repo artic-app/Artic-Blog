@@ -1,0 +1,2 @@
+- Data storage to firebase
+- Data retrieval from firebase
