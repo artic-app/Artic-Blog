@@ -71,35 +71,6 @@ public class ProfileFragment extends Fragment {
         user_name = auth.getDisplayName();
         email_id = auth.getEmail();
 
-        name_edit.setText(user_name);
-        email_view.setText(email_id);
-
-        editprofile_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-
-                builder.setTitle("Confirm ")
-                        .setMessage("Do You Want To Edit Your Profile")
-                        .setPositiveButton("Cancel", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(getContext(),"Editing Canceled",Toast.LENGTH_SHORT).show();
-
-                            }
-                        })
-                        .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                Toast.makeText(getContext(),"Enabled Editing",Toast.LENGTH_SHORT).show();
-                            }
-                        });
-                builder.create();
-
-            }
-        });
-
         return view;
     }
 
