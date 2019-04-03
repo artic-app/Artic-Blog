@@ -62,7 +62,6 @@ public class MyBlogFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
         return view;
     }
 

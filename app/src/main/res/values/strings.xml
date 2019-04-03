@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Artic-Blog</string>
+    <string name="app_name">News and Blogs </string>
 
     <string name="sign_in">Sign-In</string>
 
@@ -32,5 +32,19 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- FC -->
+    <string name="name_of_org">Blog Title</string>
+    <string name="simple_desc">Sample text displaying blog information</string>
+    <string name="image">Author name</string>
+    <!-- /FC -->
+
+    <!-- Articles -->
+    <string name="zeronet">ZeroNet - A Decentralised Internet</string>
+    <string name="nokia">Nokia 6.1 Plus launched in India</string>
+    <string name="punewomen">Pune to Witness Women in Data Science Conference</string>
+    <string name="blockcummit">Malta AI &amp; Blockchain Summit 2019</string>
+    <string name="kharagpur">IIT Kharagpur Set to Host 16th Annual Alumni Meet 2019</string>
+    <string name="google">Google Trends - A Trend in Itself</string>
+    <string name="internet">Internet in Flight: Now Access it While Flying Over India</string>
 
 </resources>

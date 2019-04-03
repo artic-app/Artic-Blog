@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical" android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="200dp"
+        <com.tomer.fadingtextview.FadingTextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/new_blog"
+            android:layout_gravity="center"
             android:textSize="35sp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="8dp" />
-
-        <EditText
-            android:layout_width="400dp"
-            android:layout_height="wrap_content"
-            android:textSize="40sp"
-            android:hint="@string/enter_title"
-            android:background="@drawable/rounded_border_edit_text"
-            android:textStyle="bold"
-            android:layout_marginStart="5dp"
-            android:layout_marginBottom="5dp" />
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="2dp"
-            android:background="#c0c0c0"/>
-
-        <EditText
-            android:layout_width="400dp"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:hint="@string/enter_content"
-            android:textAlignment="textStart"
-            android:layout_marginTop="5dp"
-            android:background="@null"
-            android:layout_marginStart="8dp" />
+            android:textColor="#fff"
+            android:layout_margin="25dp"
+            app:texts="@array/write_a_new_blog"
+            app:timeout="1400"
+            />
 
     </LinearLayout>
-</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/nextScreen"
+            android:text="Proceed to naming your supposition"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/buttonshape1"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

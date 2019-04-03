@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="anway.somani.artic_blog">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_articblog"
@@ -19,6 +21,13 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".NewBlogActivity" />
+        <activity android:name=".AcceptBlogTitle">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="anway.somani.artic_blog.AcceptBlogTitle" />
+        </activity>
+        <activity android:name=".BlogLinkView" />
+        <activity android:name=".BlogContentWrite" />
     </application>
 
 </manifest>

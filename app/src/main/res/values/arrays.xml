@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="write_a_new_blog">
+        <item>Lets Begin the Journey to creating something new</item>
+        <item>Creating a journey more to the world</item>
+        <item>To where we lead, and the world reads</item>
+    </string-array>
+
+    <string-array name="preferences">
+        <item>Technology</item>
+        <item>Art and Craft</item>
+        <item>Business</item>
+        <item>Politics</item>
+        <item>History</item>
+        <item>Education</item>
+        <item>Science</item>
+    </string-array>
+
+</resources>

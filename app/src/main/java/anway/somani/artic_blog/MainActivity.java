@@ -41,16 +41,16 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.add(R.id.container, fragment_myblog);
                     fragmentTransaction.commit();
                     return true;
-                case R.id.navigation_profile:
-                    ProfileFragment fragment_profile = new ProfileFragment();
-                    fragmentTransaction.add(R.id.container, fragment_profile);
-                    fragmentTransaction.commit();
-                    return true;
-                case R.id.navigation_settings:
-                    SettingsFragment fragment_settings = new SettingsFragment();
-                    fragmentTransaction.add(R.id.container, fragment_settings);
-                    fragmentTransaction.commit();
-                    return true;
+//                case R.id.navigation_profile:
+//                    ProfileFragment fragment_profile = new ProfileFragment();
+//                    fragmentTransaction.add(R.id.container, fragment_profile);
+//                    fragmentTransaction.commit();
+//                    return true;
+//                case R.id.navigation_settings:
+//                    SettingsFragment fragment_settings = new SettingsFragment();
+//                    fragmentTransaction.add(R.id.container, fragment_settings);
+//                    fragmentTransaction.commit();
+//                    return true;
             }
             return false;
         }

@@ -8,59 +8,52 @@ package anway.somani.artic_blog;
  * - time
  * - tag1
  * - tag2
+ * - url
  */
 
 public class BlogInstance {
 
-    public int id;
-    public String title;
-    public String content;
-    public String author_name;
-    public String date;
-    public String time;
-    public String tag1;
-    public String tag2;
+    private int title;
+    private int  author_name;
+    private int content;
+    private String blogurl;
 
-    public BlogInstance(int id, String title, String content, String author_name, String date, String time, String tag1, String tag2) {
-        this.id = id;
+    public BlogInstance(int title, int author_name, int content, String blogurl) {
         this.title = title;
-        this.content = content;
         this.author_name = author_name;
-        this.date = date;
-        this.time = time;
-        this.tag1 = tag1;
-        this.tag2 = tag2;
+        this.content = content;
+        this.blogurl = blogurl;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getTitle() {
+    public int getTitle() {
         return title;
     }
 
-    public String getContent() {
-        return content;
+    public void setTitle(int title) {
+        this.title = title;
     }
 
-    public String getAuthor_name() {
+    public int getAuthor_name() {
         return author_name;
     }
 
-    public String getDate() {
-        return date;
+    public String getBlogurl() {
+        return blogurl;
     }
 
-    public String getTime() {
-        return time;
+    public void setBlogurl(String blogurl) {
+        this.blogurl = blogurl;
     }
 
-    public String getTag1() {
-        return tag1;
+    public void setAuthor_name(int author_name) {
+        this.author_name = author_name;
     }
 
-    public String getTag2() {
-        return tag2;
+    public int getContent() {
+        return content;
+    }
+
+    public void setContent(int content) {
+        this.content = content;
     }
 }
