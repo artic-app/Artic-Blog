@@ -96,6 +96,8 @@ public class PreferenceFragment extends Fragment {
         bi = new BlogInstance(R.string.internet, R.string.simple_desc, R.string.image, "");
         blogList.add(bi);
 
+
+
     }
 
     public void onButtonPressed(Uri uri) {

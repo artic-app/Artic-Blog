@@ -9,13 +9,33 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:layout_margin="23dp"
         android:background="@drawable/rounded_border_2"
         android:textSize="14sp"
         android:hint="Write awesomeness here"
         android:padding="7dp"
-        android:gravity="top|left"
+        android:id="@+id/content_body"
+        android:gravity="top|left" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Submit"
+        android:id="@+id/content_submit_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local Save"
+        android:id="@+id/local_save"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="-49dp"
         />
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:id="@+id/cancel_content_save"
+        android:layout_marginTop="-49dp"
+        android:text="Cancel"/>
 </LinearLayout>
